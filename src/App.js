@@ -1,21 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import {useSpring, animated} from 'react-spring';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Mimi Netto's 2021 Portfolio
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://mimi-resume.herokuapp.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Current Portfolio
         </a>
       </header>
     </div>
