@@ -24,10 +24,10 @@ const Navbar = (props) => {
         <FlexContainer>
           <Brand />
           <NavLinks style={linkAnimation}>
-            <a href="/">Guestbook</a>
-            <a href="/">Our Story</a>
-            <a href="/">Party</a>
-            <a href="/">Resistry</a>
+            <a href="/">Profile</a>
+            <a href="/">Skills</a>
+            <a href="/">Projects</a>
+            <a href="/">Resume</a>
           </NavLinks>
           <BurgerWrapper>
             <BurgerMenu

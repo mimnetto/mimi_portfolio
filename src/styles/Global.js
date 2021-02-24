@@ -16,6 +16,15 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  div.mimi {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+
   a.brand {
     font-family: september, sans-serif;
     font-weight: 700;
@@ -25,6 +34,18 @@ const GlobalStyles = createGlobalStyle`
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 22pt;
+    line-height: 18pt;
+  }
+
+  a.smbrand {
+    font-family: september, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    color: #fecea8;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 10pt;
   }
 `;
 

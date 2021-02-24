@@ -1,29 +1,118 @@
-import React, { Component } from 'react'
-import Navbar from "./components/navbar/Navbar";
+import React from 'react'
+import styled from "styled-components";
+import { useSpring, animated, config } from "react-spring";
+import Brand from "./Brand";
+import BurgerMenu from "./BurgerMenu";
+import CollapseMenu from "./CollapseMenu";
 
-import GlobalStyle from './styles/Global';
+const Navbar = (props) => {
+  const barAnimation = useSpring({
+    from: { transform: 'translate3d(0, -10rem, 0)' },
+    transform: 'translate3d(0, 0, 0)',
+  });
 
-class App extends Component {
-  state = {
-    navbarOpen: false
-  }
+  const linkAnimation = useSpring({
+    from: { transform: 'translate3d(0, 30px, 0)', opacity: 0 },
+    to: { transform: 'translate3d(0, 0, 0)', opacity: 1 },
+    delay: 800,
+    config: config.wobbly,
+  });
 
-  handleNavbar = () => {
-    this.setState({ navbarOpen: !this.state.navbarOpen });
-  }
-
-  render() {
-
-    return (
-      <>
-        <Navbar
-          navbarState={this.state.navbarOpen}
-          handleNavbar={this.handleNavbar}
-        />
-        <GlobalStyle />
-      </>
-    )
-  }
+  return (
+    <>
+      <NavBar style={barAnimation}>
+        <FlexContainer>
+          <Brand />
+          <NavLinks style={linkAnimation}>
+            <a href="/">Profile</a>
+            <a href="/">Skills</a>
+            <a href="/">Projects</a>
+            <a href="/">Resume</a>
+          </NavLinks>
+          <BurgerWrapper>
+            <BurgerMenu
+              navbarState={props.navbarState}
+              handleNavbar={props.handleNavbar}
+            />
+          </BurgerWrapper>
+        </FlexContainer>
+      <NavBot />
+    </NavBar>
+    <CollapseMenu
+      navbarState={props.navbarState}
+      handleNavbar={props.handleNavbar}
+    />
+   </>
+  )
 }
 
-export default App
+export default Navbar
+
+const NavBar = styled(animated.div)`
+  position: fixed;
+  font-family: september, sans-serif;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #2a363b;
+  z-index: 1;
+  font-size: 1.4rem;
+`;
+
+const NavBot = styled(animated.nav)`
+  position: fixed;
+  font-family: september, sans-serif;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #ff847c;
+   z-index: 0;
+  height: 1rem;
+  margin-top: 5rem;
+`;
+
+const FlexContainer = styled.div`
+  max-width: 120rem;
+  display: flex;
+  margin: auto;
+  padding: 0 3rem;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+`;
+
+const NavLinks = styled(animated.ul)`
+  justify-self: end;
+  list-style-type: none;
+  margin: auto 0;
+  display: inherit;
+
+  & a {
+    color: #fecea8;
+    text-transform: uppercase;
+    font-size: 62.5%;
+    font-weight: 600;
+    border-bottom: 1px solid transparent;
+    margin: 0 .5rem;
+    transition: all 300ms linear 0s;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+      color: #cec79f;
+      border-bottom: 1px solid #cec79f;
+    }
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+`;
+
+const BurgerWrapper = styled.div`
+  margin: auto 0;
+
+  @media (min-width: 769px) {
+    display: none;
+  }
+`;
