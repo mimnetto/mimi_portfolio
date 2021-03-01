@@ -10,6 +10,10 @@
   --red: #d52b21;
 }
 
+html, body {
+  background-image: linear-gradient(180deg, #faede1 2.38%, transparent 2.38%, transparent 50%, #faede1 50%, #faede1 52.38%, transparent 52.38%, transparent 100%), linear-gradient(90deg, #faede1 2.38%, transparent 2.38%, transparent 50%, #faede1 50%, #faede1 52.38%, transparent 52.38%, transparent 100%);
+  background-size: 44.00px 44.00px;
+}
 .App {
   text-align: center;
   font-family: latex, sans-serif;
@@ -24,15 +28,14 @@
 }
 
 .App-main {
-  background-image: linear-gradient(180deg, #faede1 2.38%, transparent 2.38%, transparent 50%, #faede1 50%, #faede1 52.38%, transparent 52.38%, transparent 100%), linear-gradient(90deg, #faede1 2.38%, transparent 2.38%, transparent 50%, #faede1 50%, #faede1 52.38%, transparent 52.38%, transparent 100%);
-  background-size: 44.00px 44.00px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: stretch;
+  justify-content: stretch;
   font-size: calc(10px + 2vmin);
   color: #2a363b;
+  margin-top: 10%;
 }
 
 .App-link {

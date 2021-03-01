@@ -47,6 +47,16 @@ const GlobalStyles = createGlobalStyle`
     letter-spacing: 1px;
     font-size: 10pt;
   }
+
+ div.drop {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: flex-start;
+    margin: 0 5%;
+  }
 `;
 
 export default GlobalStyles;

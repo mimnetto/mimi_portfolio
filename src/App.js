@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Navbar from "./components/navbar/Navbar";
+import Profile from "./components/navlinks/Profile";
 import './App.css';
 import {useSpring, animated} from 'react-spring';
 import GlobalStyle from './styles/Global';
@@ -36,6 +37,8 @@ class App extends Component {
           >
             Current Portfolio
           </a>
+        <Profile
+          />
         </header>
       </div>
     );
