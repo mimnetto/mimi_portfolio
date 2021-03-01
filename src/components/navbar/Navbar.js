@@ -11,10 +11,17 @@ const Navbar = (props) => {
     transform: 'translate3d(0, 0, 0)',
   });
 
+  const Barbot = useSpring({
+    from: { transform: 'translate3d(0, 30px, 0)', opacity: 0 },
+    to: { transform: 'translate3d(0, 0, 0)', opacity: 1 },
+    delay: 900,
+    config: config.wobbly,
+  });
+
   const linkAnimation = useSpring({
     from: { transform: 'translate3d(0, 30px, 0)', opacity: 0 },
     to: { transform: 'translate3d(0, 0, 0)', opacity: 1 },
-    delay: 800,
+    delay: 700,
     config: config.wobbly,
   });
 
@@ -36,7 +43,9 @@ const Navbar = (props) => {
             />
           </BurgerWrapper>
         </FlexContainer>
-      <NavBot />
+      <NavBot
+        style={Barbot}
+        />
     </NavBar>
     <CollapseMenu
       navbarState={props.navbarState}
