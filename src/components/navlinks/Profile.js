@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import styled from "styled-components";
 import { useTransition, animated } from "react-spring";
 import useMeasure from "./useMeasure";
 
 
 function Profile(props) {
   const [isOpen, setOpen] = useState(false)
+  // eslint-disable-next-line no-unused-vars
   const [bind, { height }] = useMeasure()
   const transitions = useTransition(isOpen, null, {
     from: { height: '0rem', opacity: 0 },
@@ -14,8 +14,8 @@ function Profile(props) {
   })
 
   return (
-    <div className = "drop">
-    <dl aria-expanded={isOpen} aria-controls="accordion">
+    <div className = "drop" aria-expanded={isOpen} aria-controls="accordion">
+    <dl>
       <dt>
         <button onClick={() => setOpen(!isOpen)} type="button" id="accordion">
           Profile
