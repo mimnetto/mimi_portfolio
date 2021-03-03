@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/mimi_portfolio/static/css/main.fa5a3377.chunk.css",
-    "main.js": "/mimi_portfolio/static/js/main.60f0f065.chunk.js",
-    "main.js.map": "/mimi_portfolio/static/js/main.60f0f065.chunk.js.map",
-    "runtime-main.js": "/mimi_portfolio/static/js/runtime-main.d4d369c9.js",
-    "runtime-main.js.map": "/mimi_portfolio/static/js/runtime-main.d4d369c9.js.map",
-    "static/css/2.d6510b19.chunk.css": "/mimi_portfolio/static/css/2.d6510b19.chunk.css",
-    "static/js/2.ffe311ba.chunk.js": "/mimi_portfolio/static/js/2.ffe311ba.chunk.js",
-    "static/js/2.ffe311ba.chunk.js.map": "/mimi_portfolio/static/js/2.ffe311ba.chunk.js.map",
-    "static/js/3.b24ae17e.chunk.js": "/mimi_portfolio/static/js/3.b24ae17e.chunk.js",
-    "static/js/3.b24ae17e.chunk.js.map": "/mimi_portfolio/static/js/3.b24ae17e.chunk.js.map",
+    "main.css": "/mimi_portfolio/static/css/main.40bfd287.chunk.css",
+    "main.js": "/mimi_portfolio/static/js/main.77bcbe8b.chunk.js",
+    "main.js.map": "/mimi_portfolio/static/js/main.77bcbe8b.chunk.js.map",
+    "runtime-main.js": "/mimi_portfolio/static/js/runtime-main.4dc3cdb9.js",
+    "runtime-main.js.map": "/mimi_portfolio/static/js/runtime-main.4dc3cdb9.js.map",
+    "static/css/2.96f48c4e.chunk.css": "/mimi_portfolio/static/css/2.96f48c4e.chunk.css",
+    "static/js/2.ae243523.chunk.js": "/mimi_portfolio/static/js/2.ae243523.chunk.js",
+    "static/js/2.ae243523.chunk.js.map": "/mimi_portfolio/static/js/2.ae243523.chunk.js.map",
+    "static/js/3.ca58ab06.chunk.js": "/mimi_portfolio/static/js/3.ca58ab06.chunk.js",
+    "static/js/3.ca58ab06.chunk.js.map": "/mimi_portfolio/static/js/3.ca58ab06.chunk.js.map",
     "index.html": "/mimi_portfolio/index.html",
-    "static/css/2.d6510b19.chunk.css.map": "/mimi_portfolio/static/css/2.d6510b19.chunk.css.map",
-    "static/css/main.fa5a3377.chunk.css.map": "/mimi_portfolio/static/css/main.fa5a3377.chunk.css.map",
-    "static/js/2.ffe311ba.chunk.js.LICENSE.txt": "/mimi_portfolio/static/js/2.ffe311ba.chunk.js.LICENSE.txt"
+    "static/css/2.96f48c4e.chunk.css.map": "/mimi_portfolio/static/css/2.96f48c4e.chunk.css.map",
+    "static/css/main.40bfd287.chunk.css.map": "/mimi_portfolio/static/css/main.40bfd287.chunk.css.map",
+    "static/js/2.ae243523.chunk.js.LICENSE.txt": "/mimi_portfolio/static/js/2.ae243523.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d4d369c9.js",
-    "static/css/2.d6510b19.chunk.css",
-    "static/js/2.ffe311ba.chunk.js",
-    "static/css/main.fa5a3377.chunk.css",
-    "static/js/main.60f0f065.chunk.js"
+    "static/js/runtime-main.4dc3cdb9.js",
+    "static/css/2.96f48c4e.chunk.css",
+    "static/js/2.ae243523.chunk.js",
+    "static/css/main.40bfd287.chunk.css",
+    "static/js/main.77bcbe8b.chunk.js"
   ]
 }
