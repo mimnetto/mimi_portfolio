@@ -43,8 +43,8 @@ html, body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  justify-content: stretch;
+  align-items: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: #2a363b;
   margin-top: 10%;
@@ -59,6 +59,28 @@ a.App-link {
 }
 
 a.App-link:hover {
+  color: #2a363b;
+}
+
+div.Icons {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+a.Icons-link {
+  color: var(--pink);
+  font-weight: 900;
+  font-size: 24pt;
+  letter-spacing: 3px;
+  text-decoration: none;
+  margin: 10px;
+}
+
+a.Icons-link:hover {
   color: #2a363b;
 }
 
