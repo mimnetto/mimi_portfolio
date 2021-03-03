@@ -17,7 +17,7 @@ export default Burgermenu;
 
 const Wrapper = styled.div`
   position: relative;
-  padding-top: .7rem;
+  padding-top: .1rem;
   cursor: pointer;
   display: block;
 
@@ -25,9 +25,9 @@ const Wrapper = styled.div`
     background: #cec79f;
     display: block;
     position: relative;
-    width: 3.5rem;
-    height: .1rem;
-    margin-bottom: .7rem;
+    width: 2.5rem;
+    height: .4rem;
+    margin-bottom: .3rem;
     transition: all ease-in-out 0.2s;
   }
 

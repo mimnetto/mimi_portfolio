@@ -5,6 +5,8 @@ import Profile from "./components/navlinks/Profile";
 import './App.css';
 import GlobalStyle from './styles/Global';
 import Fade from 'react-reveal/Fade';
+import { FaGithub } from 'react-icons/fa';
+
 
 class App extends Component {
     state = {
@@ -45,6 +47,15 @@ class App extends Component {
           >
             View 2020 Portfolio
           </a>
+          <a
+            className="App-link"
+            href="https://github.com/mimnetto/mimi_portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+           <FaGithub />
+            </a>
+
         </Fade>
       </main>
       </div>

@@ -22,6 +22,11 @@ html, body {
   color: var(--grey);
   word-spacing: 3px;
 }
+@media only screen and (max-width: 800px) {
+  .App {
+    padding-top: 25%;
+  }
+}
 
 .App-logo {
   height: 40vmin;

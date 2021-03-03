@@ -30,7 +30,7 @@ const Navbar = (props) => {
       <NavBar style={barAnimation}>
         <FlexContainer>
           <Brand />
-          <NavLinks style={linkAnimation}>
+          <NavLinks  className=".d-md-none .d-lg-block" style={linkAnimation}>
             <a href="/">Profile</a>
             <a href="/">Skills</a>
             <a href="/">Projects</a>
