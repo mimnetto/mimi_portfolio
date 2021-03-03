@@ -21,8 +21,14 @@ html, body {
   font-style: normal;
   color: var(--grey);
   word-spacing: 3px;
+  padding-top: 10%;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
+  .App {
+    padding-top: 20%;
+  }
+}
+@media only screen and (max-width: 480px) {
   .App {
     padding-top: 25%;
   }

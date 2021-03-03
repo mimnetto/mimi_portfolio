@@ -65,7 +65,7 @@ const NavBar = styled(animated.div)`
   left: 0;
   background: #2a363b;
   z-index: 1;
-  font-size: 1.4rem;
+  font-size: 2rem;
 `;
 
 const NavBot = styled(animated.nav)`
