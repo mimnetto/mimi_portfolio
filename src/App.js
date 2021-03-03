@@ -27,6 +27,7 @@ class App extends Component {
           <p>
             Mimi Netto's 2021 Portfolio
           </p>
+          <br/>
           <a
             className="App-link"
             href="https://mimi-resume.herokuapp.com/"

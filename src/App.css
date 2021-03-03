@@ -38,9 +38,12 @@ html, body {
   margin-top: 10%;
 }
 
-.App-link {
+a.App-link {
   color: var(--pink);
   font-weight: 900;
+  font-size: 24pt;
+  letter-spacing: 3px;
+  text-decoration: none;
 }
 
 .H1 {

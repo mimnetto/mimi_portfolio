@@ -25,7 +25,7 @@ const GlobalStyles = createGlobalStyle`
     align-items: flex-start;
   }
 
-  .brand {
+  a.brand {
     font-family: september, sans-serif;
     font-weight: 700;
     font-style: normal;
