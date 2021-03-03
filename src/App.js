@@ -4,6 +4,7 @@ import Navbar from "./components/navbar/Navbar";
 import Profile from "./components/navlinks/Profile";
 import './App.css';
 import GlobalStyle from './styles/Global';
+import Fade from 'react-reveal/Fade';
 
 class App extends Component {
     state = {
@@ -23,22 +24,29 @@ class App extends Component {
         />
         <GlobalStyle />
       </>
-        <header className="App-main">
+    <main className="App-main">
+      <Fade left>
+          <p>
+            Coming Soon!
+          </p>
+      </Fade>
+      <Fade right>
           <p>
             Mimi Netto's 2021 Portfolio
           </p>
+      </Fade>
           <br/>
+          <Fade bottom>
           <a
             className="App-link"
             href="https://mimi-resume.herokuapp.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Current Portfolio
+            View 2020 Portfolio
           </a>
-        <Profile
-          />
-        </header>
+        </Fade>
+      </main>
       </div>
       </HashRouter>
     );

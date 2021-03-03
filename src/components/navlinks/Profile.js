@@ -1,40 +1,21 @@
-import React, { useState } from 'react';
-import { useTransition, animated } from "react-spring";
-import useMeasure from "./useMeasure";
+import React from 'react';
+import Fade from 'react-reveal/Fade';
 
 
-function Profile(props) {
-  const [isOpen, setOpen] = useState(false)
-  // eslint-disable-next-line no-unused-vars
-  const [bind, { height }] = useMeasure()
-  const transitions = useTransition(isOpen, null, {
-    from: { height: '0rem', opacity: 0 },
-    enter: { height: '5rem', opacity: 1, overflowY: 'scroll' },
-    leave: { height: '0rem', opacity: 0 }
-  })
+class Profile extends React.Component {
+  render() {
+    return (
+      <div className="drop">
+        <Fade bottom>
+          <h1>Profile</h1>
+        </Fade>
+        <Fade left>
+        <p>React Reveal</p>
+        </Fade>
 
-  return (
-    <div className = "drop" aria-expanded={isOpen} aria-controls="accordion">
-    <dl>
-      <dt>
-        <button onClick={() => setOpen(!isOpen)} type="button" id="accordion">
-          Profile
-        </button>
-        <br />
-      </dt>
-      <dd {...bind}>
-        {transitions.map(
-          ({ item, key, props }) =>
-            item && (
-              <animated.div key={key} style={props}>
-                Full-Stack web developer with hands-on experience in developing and designing user interfaces and applications while incorporating a wide range of technologies and programming languages. Seeking for the opportunity to utilize my technical skills to seek out development solutions and strategies through innovative methods and technologies.
-              </animated.div>
-            )
-        )}
-      </dd>
-    </dl>
-    </div>
-  )
+      </div>
+    );
+  }
 }
 
 export default Profile

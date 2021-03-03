@@ -20,6 +20,7 @@ html, body {
   font-weight: 400;
   font-style: normal;
   color: var(--grey);
+  word-spacing: 3px;
 }
 
 .App-logo {
@@ -44,6 +45,10 @@ a.App-link {
   font-size: 24pt;
   letter-spacing: 3px;
   text-decoration: none;
+}
+
+a.App-link:hover {
+  color: #2a363b;
 }
 
 .H1 {
