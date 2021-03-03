@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { HashRouter, Route } from "react-router-dom";
+import { HashRouter} from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import Profile from "./components/navlinks/Profile";
 import './App.css';
@@ -38,13 +38,11 @@ class App extends Component {
         <Profile
           />
         </header>
-        <Route exact path="/" component={Home} />
       </div>
       </HashRouter>
     );
   }
 }
 
-const Home = () => <div><h2>Home</h2></div>
 
 export default App

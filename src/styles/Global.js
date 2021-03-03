@@ -20,12 +20,12 @@ const GlobalStyles = createGlobalStyle`
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-content: flex-start;
+    justify-content: center;
+    align-content: stretch;
     align-items: flex-start;
   }
 
-  a.brand {
+  .brand {
     font-family: september, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -35,6 +35,7 @@ const GlobalStyles = createGlobalStyle`
     letter-spacing: 1px;
     font-size: 22pt;
     line-height: 18pt;
+    align-self: auto;
   }
 
   a.smbrand {
@@ -46,6 +47,7 @@ const GlobalStyles = createGlobalStyle`
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 10pt;
+    align-self: auto;
   }
 
  div.drop {
