@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/mimi_portfolio/static/css/main.9c6631ce.chunk.css",
-    "main.js": "/mimi_portfolio/static/js/main.8193faad.chunk.js",
-    "main.js.map": "/mimi_portfolio/static/js/main.8193faad.chunk.js.map",
-    "runtime-main.js": "/mimi_portfolio/static/js/runtime-main.5c763915.js",
-    "runtime-main.js.map": "/mimi_portfolio/static/js/runtime-main.5c763915.js.map",
+    "main.css": "/mimi_portfolio/static/css/main.fa5a3377.chunk.css",
+    "main.js": "/mimi_portfolio/static/js/main.60f0f065.chunk.js",
+    "main.js.map": "/mimi_portfolio/static/js/main.60f0f065.chunk.js.map",
+    "runtime-main.js": "/mimi_portfolio/static/js/runtime-main.d4d369c9.js",
+    "runtime-main.js.map": "/mimi_portfolio/static/js/runtime-main.d4d369c9.js.map",
     "static/css/2.d6510b19.chunk.css": "/mimi_portfolio/static/css/2.d6510b19.chunk.css",
-    "static/js/2.781cab79.chunk.js": "/mimi_portfolio/static/js/2.781cab79.chunk.js",
-    "static/js/2.781cab79.chunk.js.map": "/mimi_portfolio/static/js/2.781cab79.chunk.js.map",
-    "static/js/3.8913ba83.chunk.js": "/mimi_portfolio/static/js/3.8913ba83.chunk.js",
-    "static/js/3.8913ba83.chunk.js.map": "/mimi_portfolio/static/js/3.8913ba83.chunk.js.map",
+    "static/js/2.ffe311ba.chunk.js": "/mimi_portfolio/static/js/2.ffe311ba.chunk.js",
+    "static/js/2.ffe311ba.chunk.js.map": "/mimi_portfolio/static/js/2.ffe311ba.chunk.js.map",
+    "static/js/3.b24ae17e.chunk.js": "/mimi_portfolio/static/js/3.b24ae17e.chunk.js",
+    "static/js/3.b24ae17e.chunk.js.map": "/mimi_portfolio/static/js/3.b24ae17e.chunk.js.map",
     "index.html": "/mimi_portfolio/index.html",
     "static/css/2.d6510b19.chunk.css.map": "/mimi_portfolio/static/css/2.d6510b19.chunk.css.map",
-    "static/css/main.9c6631ce.chunk.css.map": "/mimi_portfolio/static/css/main.9c6631ce.chunk.css.map",
-    "static/js/2.781cab79.chunk.js.LICENSE.txt": "/mimi_portfolio/static/js/2.781cab79.chunk.js.LICENSE.txt"
+    "static/css/main.fa5a3377.chunk.css.map": "/mimi_portfolio/static/css/main.fa5a3377.chunk.css.map",
+    "static/js/2.ffe311ba.chunk.js.LICENSE.txt": "/mimi_portfolio/static/js/2.ffe311ba.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5c763915.js",
+    "static/js/runtime-main.d4d369c9.js",
     "static/css/2.d6510b19.chunk.css",
-    "static/js/2.781cab79.chunk.js",
-    "static/css/main.9c6631ce.chunk.css",
-    "static/js/main.8193faad.chunk.js"
+    "static/js/2.ffe311ba.chunk.js",
+    "static/css/main.fa5a3377.chunk.css",
+    "static/js/main.60f0f065.chunk.js"
   ]
 }
