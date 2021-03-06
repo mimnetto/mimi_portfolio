@@ -20,6 +20,7 @@
     "materialize-css": "^1.0.0-rc.2",
     "node-sass": "^5.0.0",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.5.1",
     "react-dom": "^17.0.1",
     "react-icons": "^4.2.0",
     "react-materialize": "^3.9.7",

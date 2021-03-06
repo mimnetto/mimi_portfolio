@@ -51,13 +51,8 @@ const GlobalStyles = createGlobalStyle`
   }
 
  div.drop {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-content: stretch;
-    align-items: flex-start;
-    margin: 0 5%;
+    margin: 2%;
+    text-align: left;
   }
 `;
 

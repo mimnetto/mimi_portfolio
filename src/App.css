@@ -14,6 +14,7 @@ html, body {
   background-image: linear-gradient(180deg, #faede1 2.38%, transparent 2.38%, transparent 50%, #faede1 50%, #faede1 52.38%, transparent 52.38%, transparent 100%), linear-gradient(90deg, #faede1 2.38%, transparent 2.38%, transparent 50%, #faede1 50%, #faede1 52.38%, transparent 52.38%, transparent 100%);
   background-size: 44.00px 44.00px;
 }
+
 .App {
   text-align: center;
   font-family: latex, sans-serif;
@@ -41,13 +42,13 @@ html, body {
 
 .App-main {
   min-height: 100vh;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: flex-start; */
   font-size: calc(10px + 2vmin);
   color: #2a363b;
-  margin-top: 10%;
+  margin: 0.5em;
 }
 
 a.App-link {
@@ -80,6 +81,15 @@ a.Icons-link {
   margin: 10px;
 }
 
+p.Icon {
+  color: var(--pink);
+  font-weight: 900;
+  font-size: 24pt;
+  letter-spacing: 3px;
+  text-decoration: none;
+  display: inline;
+}
+
 a.Icons-link:hover {
   color: #2a363b;
 }
@@ -88,4 +98,20 @@ a.Icons-link:hover {
   font-family: september, sans-serif;
   font-weight: 500;
   font-style: normal;
+}
+
+p.Profile-Info {
+  font-family: september, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 13pt;
+  margin-left: 1.5em;
+  text-align: left;
+}
+
+div.Skill-Icons {
+  margin-left: 1.5em;
+  text-align: left;
+  transform: scale(2);
+  margin-right: 35%;
 }
