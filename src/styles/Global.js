@@ -54,6 +54,20 @@ const GlobalStyles = createGlobalStyle`
     margin: 2%;
     text-align: left;
   }
+
+ div.left {
+    text-align: left;
+  }
+
+  div.skillL {
+    margin: 0 0 0 2%;
+    padding: 0 0 0 2%;
+  }
+
+  h1.head {
+    display:inline;
+  }
+
 `;
 
 export default GlobalStyles;

@@ -9,7 +9,7 @@ class Profile extends React.Component {
     return (
      <div>
       <Row className="drop">
-        <Col className="col-8">
+        <Col className="col-9">
           <Fade bottom="bottom">
             <h1 className="">
               <p className="Icon">
@@ -24,7 +24,7 @@ class Profile extends React.Component {
             </p>
           </Fade>
         </Col>
-        <Col className="col-4">
+        <Col className="col-3">
             <Fade bottom="bottom">
               <h1>
                 <p className="Icon">
