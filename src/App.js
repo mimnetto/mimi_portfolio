@@ -3,6 +3,8 @@ import {HashRouter} from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import Profile from "./components/navlinks/Profile";
 import Skills from "./components/navlinks/Skills";
+import Projects from "./components/navlinks/Projects";
+import Footer from "./components/Footer";
 import './App.css';
 import GlobalStyle from './styles/Global';
 import Fade from 'react-reveal/Fade';
@@ -26,8 +28,10 @@ class App extends Component {
         <Fade left="left">
           <Profile/>
           <Skills/>
+          <Projects/>
         </Fade>
       </main>
+      <Footer/>
     </div>
   </HashRouter>);
   }

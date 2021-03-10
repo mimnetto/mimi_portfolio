@@ -1,21 +1,21 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
+import contact from './contact.svg';
 import {AiOutlineCaretRight} from "react-icons/ai";
 import {Row, Col} from 'react-materialize';
-import {FaGithub, FaAdobe} from 'react-icons/fa';
+import {FaGithub, FaLinkedin, FaAdobe} from 'react-icons/fa';
 
 class Profile extends React.Component {
   render() {
-    return (
-     <div>
+    return (<div>
       <Row className="drop">
-        <Col className="col-9">
+        <Col className="col-10">
           <Fade bottom="bottom">
-            <h1 className="">
-              <p className="Icon">
-                <AiOutlineCaretRight/>
-              </p>
-              Profile
+            <p className="Icon">
+              <AiOutlineCaretRight/>
+            </p>
+            <h1 className="headp">
+              Profile &nbsp;&nbsp;&nbsp;&nbsp;
             </h1>
           </Fade>
           <Fade left="left">
@@ -23,28 +23,28 @@ class Profile extends React.Component {
               Front-End Web and Software Developer with hands-on experience in developing and designing user interfaces and applications while incorporating a wide range of technologies and programming languages. Seeking the opportunity to utilize my technical skills to discover development solutions and strategies through innovative methods and technologies.
             </p>
           </Fade>
+          <Fade left="left">
+            <a className="Icons-link" href="https://github.com/mimnetto/mimi_portfolio" target="_blank" rel="noopener noreferrer">
+              <FaGithub/>
+            </a>
+            <a className="Icons-link" href="https://www.linkedin.com/in/michelle-netto/" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin/>
+            </a>
+            <a className="Icons-link" href="https://miminetto.myportfolio.com/" target="_blank" rel="noopener noreferrer">
+              <FaAdobe/>
+            </a>
+          </Fade>
         </Col>
-        <Col className="col-3">
-            <Fade bottom="bottom">
-              <h1>
-                <p className="Icon">
-                  <AiOutlineCaretRight/>
-                </p>
-                Links
-              </h1>
+        <Col className="col-2">
+          <div className="svg-con">
+            <Fade top="top">
+              <img src={contact} className="App-logo" alt="contact"/>
+              <p className="bub">Contact!</p>
             </Fade>
-            <Fade left="left">
-              <a className="Icons-link" href="https://github.com/mimnetto/mimi_portfolio" target="_blank" rel="noopener noreferrer">
-                <FaGithub/>
-              </a>
-              <a className="Icons-link" href="https://miminetto.myportfolio.com/" target="_blank" rel="noopener noreferrer">
-                <FaAdobe/>
-              </a>
-            </Fade>
+          </div>
         </Col>
       </Row>
-    </div>
-  );
+    </div>);
   }
 }
 

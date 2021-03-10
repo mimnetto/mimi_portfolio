@@ -1,91 +1,80 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import {Tooltip, IconButton} from '@material-ui/core';
-import {
-  FaReact,
-  FaHtml5,
-  FaCss3Alt,
-  FaNodeJs,
-  FaAtom,
-  FaNpm,
-  FaPhp,
-  FaPython,
-  FaGit,
-  FaSass
-} from 'react-icons/fa';
+import {FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaAtom, FaNpm, FaPhp, FaPython, FaGit, FaSass} from 'react-icons/fa';
 import {DiPhotoshop} from 'react-icons/di';
-import {SiAdobeindesign, SiAdobepremiere, SiAdobecreativecloud, SiJavascript} from 'react-icons/si';
+import {SiAdobeindesign, SiAdobepremiere, SiAdobecreativecloud,SiJavascript} from 'react-icons/si';
 import {AiOutlineCaretRight} from "react-icons/ai";
 import {Container, Row, Col} from 'react-bootstrap';
 
 class Skills extends React.Component {
   render() {
-    return (<div className="left">
-      <Fade right="right">
-        <div className="skillL">
-          <p className="Icon">
-            <AiOutlineCaretRight/>
-          </p>
-          <h1 className="head">
-            Skills & Tools!
-          </h1>
-        </div>
-      </Fade>
-      <Container>
-        <Fade left="left">
-          <div className="Skill-Icons">
-            <Row>
-              <Col>
-                <Tooltip title="React">
-                  <IconButton aria-label="React">
-                    <FaReact size={38}/>
-                  </IconButton>
-                </Tooltip>
+    return (
+      <div className="left">
+          <Fade right="right">
+            <div className="skillL">
+              <p className="Icon">
+                <AiOutlineCaretRight/>
+              </p>
+              <h1 className="head">
+              Skills & Tools! &nbsp;&nbsp;&nbsp;&nbsp;
+            </h1>
+            </div>
+          </Fade>
+          <Container fluid>
+          <Fade left="left">
+            <div className="Skill-Icons">
+              <Row className="justify-content-left">
+                <Col xs={2}>
+                  <FaReact size={38}/>
+                  <p className="Skill-Name">react</p>
+                </Col>
+                <Col xs={2}>
+                  <FaHtml5 size={38}/>
+                  <p className="Skill-Name">HTML</p>
+                </Col>
+                <Col xs={2}>
+                  <FaCss3Alt size={38}/>
+                  <p className="Skill-Name">css</p>
+                </Col>
+                <Col xs={2}>
+                  <FaNodeJs size={38}/>
+                  <p className="Skill-Name">Javascript</p>
+                </Col>
+                <Col xs={2}>
+                  <FaAtom size={38}/>
+                  <p className="Skill-Name">Atom</p>
+                </Col>
+                <Col xs={2}><FaNpm size={38}/><p className="Skill-Name">&nbsp;</p></Col>
+                <Col xs={2}><FaPhp size={38}/><p className="Skill-Name">&nbsp;</p></Col>
+                <Col xs={2}><FaPython size={38}/><p className="Skill-Name">python</p></Col>
+                <Col xs={2}><FaGit size={38}/><p className="Skill-Name">&nbsp;</p></Col>
+                <Col xs={2}><FaSass size={38}/>
+                <p className="Skill-Name">&nbsp;</p>
               </Col>
-              <Col>
-                <Tooltip title="React">
-                  <IconButton aria-label="React">
-                <FaHtml5 size={38}/>
-                </IconButton>
-              </Tooltip>
-            </Col>
-              <Col>
-                <Tooltip title="React">
-                  <IconButton aria-label="React">
-                <FaCss3Alt size={38}/>
-                </IconButton>
-              </Tooltip>
+                <Col xs={2}><SiJavascript size={31}/><p className="Skill-Name">JavaScript</p>
               </Col>
-              <Col>
-                <Tooltip title="React">
-                  <IconButton aria-label="React">
-                <FaNodeJs size={38}/>
-              </IconButton>
-            </Tooltip></Col>
-              <Col>
-                <Tooltip title="React">
-                  <IconButton aria-label="React">
-                <FaAtom size={38}/>
-              </IconButton>
-            </Tooltip></Col>
             </Row>
-            <Row>
-              <Col><DiPhotoshop size={38}/></Col>
-              <Col><SiAdobeindesign size={31}/></Col>
-              <Col><FaNpm size={38}/></Col>
-              <Col><FaPhp size={38}/></Col>
-              <Col><FaPython size={38}/></Col>
-            </Row>
-            <Row>
-              <Col><FaGit size={38}/></Col>
-              <Col><FaSass size={38}/></Col>
-              <Col><SiAdobepremiere size={31}/></Col>
-              <Col><SiAdobecreativecloud size={31}/></Col>
-              <Col><SiJavascript size={31}/></Col>
-            </Row>
-          </div>
-        </Fade>
-      </Container>
+              <Row>
+                <Col xs={2}>
+                  <SiAdobecreativecloud size={31}/><
+                    p className="Skill-Name">Adobe CC</p>
+                </Col>
+                  <Col xs={2}>
+                    <DiPhotoshop size={38}/>
+                    <p className="Skill-Name">Photoshop</p>
+                  </Col>
+                  <Col xs={2}>
+                    <SiAdobeindesign size={31}/>
+                    <p className="Skill-Name">indesign</p>
+                  </Col>
+                  <Col xs={2}>
+                    <SiAdobepremiere size={31}/>
+                    <p className="Skill-Name">Premiere</p>
+                  </Col>
+              </Row>
+            </div>
+              </Fade>
+            </Container>
     </div>);
   }
 }

@@ -31,15 +31,28 @@ html, body {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 100px) {
   .App {
     padding-top: 25%;
   }
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 12vmin;
   pointer-events: none;
+  filter: drop-shadow( 3px 3px 0px rgba(42, 54, 59));
+}
+
+.svg-con {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+p.bub {
+  position: absolute;
+  font-size: 13pt;
 }
 
 .App-main {
@@ -80,7 +93,7 @@ a.Icons-link {
   font-size: 24pt;
   letter-spacing: 3px;
   text-decoration: none;
-  margin: 10px;
+  margin-left: 1em;
 }
 
 p.Icon {
@@ -107,29 +120,50 @@ p.Profile-Info {
   font-weight: 500;
   font-style: normal;
   font-size: 13pt;
-  margin-left: 1.5em;
+  margin-left: 1.7em;
   text-align: left;
 }
 
 div.Skill-Icons {
-  text-align: left;
+  text-align: center;
+  margin: auto;
   transform: scale(2);
-  margin-right: 35%;
+  margin-right: 10%;
 }
+ p.Skill-Name {
+   font-size: 12pt;
+   text-align: center;
+ }
+
+ div.skillL {
+   margin: 50px 25px 0 2%;
+   padding: 0 25px 25px 0;
+ }
+
+ h1.head {
+   display:inline;
+   border-bottom: 4px solid #212529;
+ }
+ h1.headp {
+   display:inline;
+   border-bottom: 4px solid #212529;
+   margin-bottom: 25px;
+ }
 
 div.container-fluid {
   padding-left: 0;
   padding-right: 0;
 }
 
-div.container {
+div.container-fluid {
   margin-left: 2%;
   padding-right: 0;
 }
 
 div.row {
   margin-right: 0px;
-  margin-left: 0px
+  margin-left: 0px;
+  padding-top: 1%;
 }
 
 div.col-lg-1, div.col-lg-10, div.col-lg-11, div.col-lg-12, div.col-lg-2, div.col-lg-3, div.col-lg-4, div.col-lg-5, div.col-lg-6, div.col-lg-7, div.col-lg-8, div.col-lg-9,
@@ -138,8 +172,4 @@ div.col-sm-1, div.col-sm-10, div.col-sm-11, div.col-sm-12, div.col-sm-2, div.col
 div.col-xs-1, div.col-xs-10, div.col-xs-11, div.col-xs-12, div.col-xs-2, div.col-xs-3, div.col-xs-4, div.col-xs-5, div.col-xs-6, div.col-xs-7, div.col-xs-8, div.col-xs-9 {
   padding-left: 0;
   padding-right: 0;
-}
-
-div.MuiIconButton-root {
-  color: #2a363b !important;
 }

@@ -1,6 +1,8 @@
-import { createGlobalStyle } from 'styled-components';
+import {
+  createGlobalStyle
+} from 'styled-components';
 
-const GlobalStyles = createGlobalStyle`
+const GlobalStyles = createGlobalStyle `
 
   @import url("https://use.typekit.net/pcd8ehb.css");
 
@@ -23,6 +25,12 @@ const GlobalStyles = createGlobalStyle`
     justify-content: center;
     align-content: stretch;
     align-items: flex-start;
+  }
+
+  p.foot {
+    display: inline-block;
+    color: #fffcdd;
+    font-family: september, sans-serif;
   }
 
   a.brand {
@@ -59,14 +67,7 @@ const GlobalStyles = createGlobalStyle`
     text-align: left;
   }
 
-  div.skillL {
-    margin: 0 0 0 2%;
-    padding: 0 0 0 2%;
-  }
 
-  h1.head {
-    display:inline;
-  }
 
 `;
 
