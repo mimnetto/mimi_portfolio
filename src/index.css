@@ -13,6 +13,12 @@ code {
     monospace;
 }
 
+
+Main {
+  min-height: 100%;
+  margin: 0 auto -50px;
+}
+
 .footer{
   margin-top: 5rem;
   padding: 1rem 3rem;
@@ -24,7 +30,20 @@ code {
   text-align: right;
 }
 
-Main {
-  min-height: 100%;
-  margin: 0 auto -50px;
+p.foot {
+  display: inline-block;
+  color: #fffcdd;
+  font-family: september, sans-serif;
 }
+
+div.drop {
+   margin: 2%;
+   text-align: left;
+ }
+
+div.left {
+   text-align: left;
+ }
+div.sectionStart {
+   text-align: left;
+ }

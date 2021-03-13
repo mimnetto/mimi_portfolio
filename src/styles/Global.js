@@ -4,7 +4,6 @@ import {
 
 const GlobalStyles = createGlobalStyle `
 
-  @import url("https://use.typekit.net/pcd8ehb.css");
 
   *,
   *::after,
@@ -27,11 +26,6 @@ const GlobalStyles = createGlobalStyle `
     align-items: flex-start;
   }
 
-  p.foot {
-    display: inline-block;
-    color: #fffcdd;
-    font-family: september, sans-serif;
-  }
 
   a.brand {
     font-family: september, sans-serif;
@@ -56,15 +50,6 @@ const GlobalStyles = createGlobalStyle `
     letter-spacing: 1px;
     font-size: 10pt;
     align-self: auto;
-  }
-
- div.drop {
-    margin: 2%;
-    text-align: left;
-  }
-
- div.left {
-    text-align: left;
   }
 
 

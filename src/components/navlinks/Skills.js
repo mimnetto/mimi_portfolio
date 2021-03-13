@@ -9,8 +9,8 @@ import {Container, Row, Col} from 'react-bootstrap';
 class Skills extends React.Component {
   render() {
     return (
-      <div className="left">
-          <Fade right="right">
+      <div className="sectionStart">
+          <Fade right>
             <div className="skillL">
               <p className="Icon">
                 <AiOutlineCaretRight/>
@@ -21,7 +21,7 @@ class Skills extends React.Component {
             </div>
           </Fade>
           <Container fluid>
-          <Fade left="left">
+          <Fade left>
             <div className="Skill-Icons">
               <Row className="justify-content-left">
                 <Col xs={2}>

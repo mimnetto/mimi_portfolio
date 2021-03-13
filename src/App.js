@@ -7,7 +7,7 @@ import Projects from "./components/navlinks/Projects";
 import Footer from "./components/Footer";
 import './App.css';
 import GlobalStyle from './styles/Global';
-import Fade from 'react-reveal/Fade';
+
 
 class App extends Component {
   state = {
@@ -25,11 +25,9 @@ class App extends Component {
         <GlobalStyle/>
       </>
       <main className="App-main">
-        <Fade left="left">
           <Profile/>
           <Skills/>
           <Projects/>
-        </Fade>
       </main>
       <Footer/>
     </div>
