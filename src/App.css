@@ -110,6 +110,24 @@ a.Icons-link:hover {
   color: #2a363b;
 }
 
+a.Git-link {
+  color: var(--pink);
+
+}
+
+a.Git-link:hover {
+  color: #2a363b;
+}
+
+a.Footer-link {
+  color: var(--off);
+
+}
+
+a.Footer-link:hover {
+  color: var(--pink);
+}
+
 .H1 {
   font-family: september, sans-serif;
   font-weight: 500;
@@ -179,4 +197,18 @@ div.col-xs-1, div.col-xs-10, div.col-xs-11, div.col-xs-12, div.col-xs-2, div.col
 
 div.bubble {
   max-width: fit-content;
+}
+
+p.Card-About {
+  font-family: september, sans-serif;
+  font-size: 12pt;
+  text-align: left;
+}
+
+.card-title{
+  color: black !important;
+  background: #ffffffc4;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 12pt !important;
 }
