@@ -1,15 +1,16 @@
 import React from 'react';
-import Slide from "react-awesome-reveal";
+import {Slide} from "react-awesome-reveal";
 import contact from './contact.svg';
 import {AiOutlineCaretRight} from "react-icons/ai";
 import {Container, Row, Col} from 'react-bootstrap';
-import {FaGithub, FaLinkedin, FaAdobe} from 'react-icons/fa';
+import {FaGithub, FaLinkedin, FaAdobe, FaRegFilePdf} from 'react-icons/fa';
+import Pdf from './Resume2021.pdf';
 
 class Profile extends React.Component {
   render() {
-    return (<div>
-      <Slide direction="left">
-        <Container fluid>
+    return (<div className="sectionStart">
+      <Slide direction="right">
+        <Container fluid="fluid">
           <Row className="drop">
             <Col className="col-10">
               <div className="sectionStart">
@@ -24,15 +25,6 @@ class Profile extends React.Component {
                 <p className="Profile-Info">
                   Front-End Web and Software Developer with hands-on experience in developing and designing user interfaces and applications while incorporating a wide range of technologies and programming languages. Seeking the opportunity to utilize my technical skills to discover development solutions and strategies through innovative methods and technologies.
                 </p>
-                <a className="Icons-link" href="https://github.com/mimnetto/mimi_portfolio" target="_blank" rel="noopener noreferrer">
-                  <FaGithub/>
-                </a>
-                <a className="Icons-link" href="https://www.linkedin.com/in/michelle-netto/" target="_blank" rel="noopener noreferrer">
-                  <FaLinkedin/>
-                </a>
-                <a className="Icons-link" href="https://miminetto.myportfolio.com/" target="_blank" rel="noopener noreferrer">
-                  <FaAdobe/>
-                </a>
               </div>
             </Col>
             <Col className="col-2 bubble">
@@ -43,6 +35,39 @@ class Profile extends React.Component {
             </Col>
           </Row>
         </Container>
+        <div>
+          <Container fluid="fluid">
+            <Row className="Icons-Pr">
+              <Col className="col-1">
+                <a className="Icons-link" href="https://github.com/mimnetto/mimi_portfolio" target="_blank" rel="noopener noreferrer">
+                  <FaGithub/>
+                </a>
+              </Col>
+              <Col className="col-1">
+                <a className="Icons-link" href="https://www.linkedin.com/in/michelle-netto/" target="_blank" rel="noopener noreferrer">
+                  <FaLinkedin/>
+                </a>
+              </Col>
+              <Col className="col-1">
+                <a className="Icons-link" href="https://miminetto.myportfolio.com/" target="_blank" rel="noopener noreferrer">
+                  <FaAdobe/>
+                </a>
+                <a className="Icons-link" href="https://miminetto.myportfolio.com/" target="_blank" rel="noopener noreferrer"></a>
+              </Col>
+              <Col className="col-1">
+                <a className="Icons-link" href={Pdf} target="_blank" rel="noopener noreferrer">
+                  <FaRegFilePdf/>
+                </a>
+                <a className="Icons-Link-Text" href={Pdf} target="_blank" rel="noopener noreferrer">
+                  <p>Resume</p>
+                </a>
+              </Col>
+              <Col className="col-6">
+                &nbsp;
+              </Col>
+            </Row>
+          </Container>
+        </div>
       </Slide>
     </div>);
   }

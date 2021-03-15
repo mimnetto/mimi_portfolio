@@ -94,7 +94,7 @@ a.Icons-link {
   font-size: 24pt;
   letter-spacing: 3px;
   text-decoration: none;
-  margin-left: 1em;
+  /* margin-left: 1em; */
 }
 
 p.Icon {
@@ -147,13 +147,23 @@ p.Profile-Info {
 div.Skill-Icons {
   text-align: center;
   margin: auto;
-  transform: scale(2);
   margin-right: 10%;
 }
 
 p.Skill-Name {
   font-size: 12pt;
   text-align: center;
+}
+
+a.Icons-Link-Text {
+  color: var(--pink);
+  font-size: 12pt;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+a.Icons-Link-Text:hover {
+  color: var(--grey);
+  text-decoration: none;
 }
 
 div.skillL {
@@ -195,6 +205,11 @@ div.col-xs-1, div.col-xs-10, div.col-xs-11, div.col-xs-12, div.col-xs-2, div.col
   padding-right: 0;
 }
 
+div.row.Icons-Pr {
+  margin-left: 1em;
+  text-align: center;
+}
+
 div.bubble {
   max-width: fit-content;
 }
@@ -211,4 +226,15 @@ p.Card-About {
   font-weight: 900;
   font-style: normal;
   font-size: 12pt !important;
+}
+
+a.Project-Link-Text {
+  color: var(--pink) !important;
+  font-size: 16pt;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+a.Project-Link-Text:hover {
+  color: var(--grey) !important;
+  text-decoration: none;
 }

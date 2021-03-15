@@ -29,7 +29,7 @@ class Projects extends React.Component {
               <Card actions=
                 {
                   [
-                    <a key="1" href="https://mimnetto.github.io/" target="_blank" rel="noreferrer">Link <FaExternalLinkAlt/></a>
+                    <a className="Project-Link-Text" key="1" href="https://mimnetto.github.io/" target="_blank" rel="noreferrer">Link <FaExternalLinkAlt/></a>
                   ]
                 }
                 closeIcon={<Icon> close</Icon>}
@@ -37,14 +37,13 @@ class Projects extends React.Component {
                 revealIcon={<Icon> more_vert</Icon>}>
                 <p className="Card-About">In this project I used AJAX to make a request to an external Animal Crossing data source.</p>
                   <a className="Git-link"  href="https://github.com/mimnetto/mimnetto.github.io" target="_blank" rel="noreferrer"> <FaGithub/></a>
-
             </Card>
             </Col>
             <Col className="col-6">
               <Card actions=
                 {
                   [
-                    <a key="2" href="https://ifatale.herokuapp.com/" target="_blank" rel="noreferrer">Link <FaExternalLinkAlt/></a>
+                    <a className="Project-Link-Text" key="2" href="https://ifatale.herokuapp.com/" target="_blank" rel="noreferrer">Link <FaExternalLinkAlt/></a>
                   ]
                 }
                 closeIcon={<Icon> close</Icon>}
@@ -58,7 +57,7 @@ class Projects extends React.Component {
               <Card actions=
                 {
                   [
-                    <a key="3" href="https://jobtrack-app.herokuapp.com/" target="_blank" rel="noreferrer">Link <FaExternalLinkAlt/></a>
+                    <a className="Project-Link-Text" key="3" href="https://jobtrack-app.herokuapp.com/" target="_blank" rel="noreferrer">Link <FaExternalLinkAlt/></a>
                   ]
                 }
                 closeIcon={<Icon> close</Icon>}
@@ -72,7 +71,7 @@ class Projects extends React.Component {
               <Card actions=
                 {
                   [
-                    <a key="4" href="https://colleen-blake-wedding.herokuapp.com/" target="_blank" rel="noreferrer">Link <FaExternalLinkAlt/></a>
+                    <a className="Project-Link-Text" key="4" href="https://colleen-blake-wedding.herokuapp.com/" target="_blank" rel="noreferrer">Link <FaExternalLinkAlt/></a>
                   ]
                 }
                 closeIcon={<Icon> close</Icon>}
