@@ -204,9 +204,6 @@ Div.pro-card {
   max-width: 100% !important;
 }
 
-Div.profile-li {
-  text-align: left;
-}
 
 div.container-fluid {
   padding-right: 0;
@@ -219,7 +216,7 @@ div.row {
 }
 
 div.Pad-Icons {
-      padding: 3% 0 0 0;
+      padding: 1% 0 0 0;
 }
 
 div.col-lg-1, div.col-lg-10, div.col-lg-11, div.col-lg-12, div.col-lg-2, div.col-lg-2, div.col-lg-3, div.col-lg-4, div.col-lg-5, div.col-lg-6, div.col-lg-7, div.col-lg-8, div.col-lg-9,
@@ -245,7 +242,8 @@ div.col-xs-1, div.col-xs-10, div.col-xs-11, div.col-xs-12, div.col-xs-2, div.col
     display: none;
   }
   div.Icons-Pr {
-    margin-left: 2em;
+    margin-left: 1em;
+    text-align: left;
   }
 }
 
@@ -284,11 +282,19 @@ a.Project-Link-Text:hover {
   p.re-text {
     font-size: 12pt;
   }
+  Div.profile-li {
+    text-align: left;
+    margin-left: 1em;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   p.re-text {
     font-size: 10pt;
+  }
+  Div.profile-li {
+    text-align: left;
+    margin-left: 2em;
   }
 }
 

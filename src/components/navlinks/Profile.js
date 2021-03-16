@@ -39,7 +39,7 @@ class Profile extends React.Component {
         </Container>
         <div>
           <Container fluid className="profile-li">
-            <Row className="Icons-Pr">
+            <Row>
               <Col className="Pad-Icons" xs={6} sm={6} md={2} lg={1} xl={1}>
                 <a className="Icons-link" href="https://github.com/mimnetto/mimi_portfolio" target="_blank" rel="noopener noreferrer">
                   <FaGithub size={38}/>
