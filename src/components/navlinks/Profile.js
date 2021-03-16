@@ -38,14 +38,14 @@ class Profile extends React.Component {
           </Row>
         </Container>
         <div>
-          <Container fluid="fluid">
+          <Container fluid className="profile-li">
             <Row className="Icons-Pr">
-              <Col xs={6} sm={6} md={2} lg={1} xl={1}>
+              <Col className="Pad-Icons" xs={6} sm={6} md={2} lg={1} xl={1}>
                 <a className="Icons-link" href="https://github.com/mimnetto/mimi_portfolio" target="_blank" rel="noopener noreferrer">
                   <FaGithub size={38}/>
                 </a>
               </Col>
-              <Col  xs={6} sm={6} md={2} lg={1} xl={1}>
+              <Col  className="Pad-Icons" xs={6} sm={6} md={2} lg={1} xl={1}>
                 <a className="Icons-link" href="https://www.linkedin.com/in/michelle-netto/" target="_blank" rel="noopener noreferrer">
                   <FaLinkedin size={38}/>
                 </a>
@@ -60,7 +60,7 @@ class Profile extends React.Component {
                   <FaRegFilePdf size={38}/>
                 </a>
                 <a className="Icons-Link-Text" href={Pdf} target="_blank" rel="noopener noreferrer">
-                  <p className="Skill-Name">Resume</p>
+                  <p className="resume">Resume</p>
                 </a>
               </Col>
               <Col className="col-6">

@@ -164,6 +164,9 @@ p.Skill-Name {
   font-size: 12pt;
   text-align: center;
 }
+p.resume {
+  font-size: 11pt;
+}
 
 a.Icons-Link-Text {
   color: var(--pink);
@@ -201,6 +204,10 @@ Div.pro-card {
   max-width: 100% !important;
 }
 
+Div.profile-li {
+  text-align: left;
+}
+
 div.container-fluid {
   padding-right: 0;
 }
@@ -234,7 +241,10 @@ div.col-xs-1, div.col-xs-10, div.col-xs-11, div.col-xs-12, div.col-xs-2, div.col
   p.Skill-Name {
     display: none;
   }
-  div.row.Icons-Pr {
+  p.resume {
+    display: none;
+  }
+  div.Icons-Pr {
     margin-left: 2em;
   }
 }
