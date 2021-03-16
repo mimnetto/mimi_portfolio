@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import styled from "styled-components";
 import { useSpring, animated, config } from "react-spring";

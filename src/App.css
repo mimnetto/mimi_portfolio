@@ -55,6 +55,13 @@ p.bub {
   position: absolute;
   font-size: 13pt;
 }
+a.bub {
+  position: absolute;
+  font-size: 13pt;
+}
+div.contact {
+margin-left: 1em;
+}
 
 .App-main {
   min-height: 100vh;

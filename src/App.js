@@ -4,11 +4,10 @@ import Navbar from "./components/navbar/Navbar";
 import Profile from "./components/navlinks/Profile";
 import Skills from "./components/navlinks/Skills";
 import Projects from "./components/navlinks/Projects";
+import ContactForm from "./components/navlinks/Contact";
 import Footer from "./components/Footer";
 import './App.css';
 import GlobalStyle from './styles/Global';
-import ScrollableAnchor from 'react-scrollable-anchor'
-
 
 class App extends Component {
   state = {
@@ -36,6 +35,9 @@ class App extends Component {
         </section>
         <section id='projects'>
           <Projects/>
+        </section>
+        <section id='contact'>
+          <ContactForm />
         </section>
       </main>
       <Footer/>

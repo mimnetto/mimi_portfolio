@@ -1,7 +1,6 @@
 import React from 'react'
-import ReactDOM from 'react-dom';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import { HashRouter, Route, Link } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 
 
 const Brand = () => {

@@ -19,6 +19,7 @@
 .env.production.local
 .cpanel.yml
 .scrap.js
+.env
 
 npm-debug.log*
 yarn-debug.log*

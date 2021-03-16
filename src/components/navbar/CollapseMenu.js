@@ -1,35 +1,37 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import styled from 'styled-components';
 
-import { useSpring, animated } from 'react-spring';
+import {useSpring, animated} from 'react-spring';
 
 const CollapseMenu = (props) => {
-  const { open } = useSpring({ open: props.navbarState ? 0 : 1 });
+  const {open} = useSpring({
+    open: props.navbarState
+      ? 0
+      : 1
+  });
 
   if (props.navbarState === true) {
-    return (
-      <CollapseWrapper style={{
+    return (<CollapseWrapper style={{
         transform: open.interpolate({
-          range: [0, 0.2, 0.3, 1],
-          output: [0, -20, 0, -200],
-        }).interpolate(openValue => `translate3d(0, ${openValue}px, 0`),
-      }}
-      >
-        <NavLinks>
+          range: [
+            0, 0.2, 0.3, 1
+          ],
+          output: [0, -20, 0, -200]
+        }).interpolate(openValue => `translate3d(0, ${openValue}px, 0`)
+      }}>
+      <NavLinks>
         <li>
           <AnchorLink offset={() => 100} href='#profile' onClick={props.handleNavbar}>Profile</AnchorLink>
         </li>
         <li>
-        <AnchorLink offset={() => 100} href='#skills' onClick={props.handleNavbar}>Skills</AnchorLink>
+          <AnchorLink offset={() => 100} href='#skills' onClick={props.handleNavbar}>Skills</AnchorLink>
         </li>
         <li>
-        <AnchorLink offset={() => 100} href='#projects' onClick={props.handleNavbar}>Projects</AnchorLink>
+          <AnchorLink offset={() => 100} href='#projects' onClick={props.handleNavbar}>Projects</AnchorLink>
         </li>
       </NavLinks>
-      </CollapseWrapper>
-    );
+    </CollapseWrapper>);
   }
   return null;
 };
@@ -45,7 +47,7 @@ const CollapseWrapper = styled(animated.div)`
   z-index: 1;
 `;
 
-const NavLinks = styled.ul`
+const NavLinks = styled.ul `
   list-style-type: none;
   padding: 2rem 1rem 2rem 2rem;
 

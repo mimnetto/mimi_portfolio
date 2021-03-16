@@ -6,6 +6,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 import {FaGithub, FaLinkedin, FaAdobe, FaRegFilePdf} from 'react-icons/fa';
 import Pdf from './Resume2021.pdf';
 
+
 class Profile extends React.Component {
   render() {
     return (
@@ -31,7 +32,7 @@ class Profile extends React.Component {
             <Col className="col-2 bubble">
               <div className="svg-con">
                 <img src={contact} className="App-logo" alt="contact"/>
-                <p className="bub">Contact!</p>
+                <p className="bub">Hello World!</p>
               </div>
             </Col>
           </Row>
@@ -53,7 +54,6 @@ class Profile extends React.Component {
                 <a className="Icons-link" href="https://miminetto.myportfolio.com/" target="_blank" rel="noopener noreferrer">
                   <FaAdobe/>
                 </a>
-                <a className="Icons-link" href="https://miminetto.myportfolio.com/" target="_blank" rel="noopener noreferrer"></a>
               </Col>
               <Col className="col-1">
                 <a className="Icons-link" href={Pdf} target="_blank" rel="noopener noreferrer">
