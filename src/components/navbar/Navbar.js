@@ -32,7 +32,7 @@ const Navbar = (props) => {
         <FlexContainer>
           <Brand />
           <NavLinks  className=".d-md-none .d-lg-block" style={linkAnimation}>
-            <AnchorLink offset='150' href='#profile'>Profile</AnchorLink>
+            <AnchorLink offset='110' href='#profile'>Profile</AnchorLink>
             <AnchorLink offset='120' href='#skills'>Skills</AnchorLink>
             <AnchorLink offset='120' href='#projects'>Projects</AnchorLink>
           </NavLinks>

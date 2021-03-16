@@ -50,7 +50,15 @@ div.drop {
 div.left {
    text-align: left;
  }
+
 div.sectionStart {
    text-align: left;
    padding: 0 25px 25px 0;
+   margin: 75px 25px 0 2%;
+ }
+
+div.Top-Start {
+   text-align: left;
+   padding: 0 25px 25px 0;
+   margin: 0 25px 0 2%;
  }

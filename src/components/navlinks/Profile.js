@@ -10,12 +10,12 @@ import Pdf from './Resume2021.pdf';
 class Profile extends React.Component {
   render() {
     return (
-    <div className="sectionStart">
+    <div className="Top-Start">
       <Slide direction="right">
         <Container fluid="fluid">
           <Row className="drop">
             <Col className="col-10">
-              <div className="sectionStart">
+              <div>
                 <p className="Icon">
                   <AiOutlineCaretRight/>
                 </p>
