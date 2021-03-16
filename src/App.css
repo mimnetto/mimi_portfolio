@@ -31,7 +31,7 @@ html, body {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   .App {
     padding-top: 25%;
   }
@@ -51,24 +51,19 @@ html, body {
   position: absolute;
 }
 
-@media only screen and (max-width: 768px) {
   p.bub {
     position: absolute;
-    font-size: 13pt;
+    font-size: 11pt;
+    max-width: fit-content;
   }
-}
 
-@media only screen and (max-width: 480px) {
-  p.bub {
-    position: absolute;
-    font-size: 7pt;
-  }
-}
-
-
-div.contact {
+/* a.bub {
+  position: absolute;
+  font-size: 13pt;
+} */
+/* div.contact {
 margin-left: 1em;
-}
+} */
 
 .App-main {
   min-height: 100vh;
@@ -162,6 +157,7 @@ div.Skill-Icons {
   text-align: center;
   margin: auto;
   margin-right: 10%;
+  margin-top: 3%;
 }
 
 p.Skill-Name {
@@ -200,6 +196,11 @@ div.container-fluid {
   padding-right: 0;
 }
 
+Div.pro-card {
+  margin-left: 1em !important;
+  max-width: 100% !important;
+}
+
 div.container-fluid {
   padding-right: 0;
 }
@@ -210,6 +211,10 @@ div.row {
   padding-top: 1%;
 }
 
+div.Pad-Icons {
+      padding: 3% 0 0 0;
+}
+
 div.col-lg-1, div.col-lg-10, div.col-lg-11, div.col-lg-12, div.col-lg-2, div.col-lg-2, div.col-lg-3, div.col-lg-4, div.col-lg-5, div.col-lg-6, div.col-lg-7, div.col-lg-8, div.col-lg-9,
 div.col-md-1, div.col-md-10, div.col-md-11, div.col-md-12, div.col-md-2, div.col-md-3, div.col-md-4, div.col-md-5, div.col-md-6, div.col-md-7, div.col-md-8, div.col-md-9,
 div.col-sm-1, div.col-sm-10, div.col-sm-11, div.col-sm-12, div.col-sm-2, div.col-sm-3, div.col-sm-4, div.col-sm-5, div.col-sm-6, div.col-sm-7, div.col-sm-8, div.col-sm-9,
@@ -218,10 +223,22 @@ div.col-xs-1, div.col-xs-10, div.col-xs-11, div.col-xs-12, div.col-xs-2, div.col
   padding-right: 0;
 }
 
-div.row.Icons-Pr {
-  margin-left: 1em;
-  text-align: center;
+@media only screen and (max-width: 768px) {
+  p.Skill-Name {
+    font-size: 12pt;
+    text-align: center;
+  }
 }
+
+@media only screen and (max-width: 600px) {
+  p.Skill-Name {
+    display: none;
+  }
+  div.row.Icons-Pr {
+    margin-left: 2em;
+  }
+}
+
 
 div.bubble {
   max-width: fit-content;
@@ -247,7 +264,24 @@ a.Project-Link-Text {
   letter-spacing: 2px;
   text-decoration: none;
 }
+
 a.Project-Link-Text:hover {
   color: var(--grey) !important;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  p.re-text {
+    font-size: 12pt;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  p.re-text {
+    font-size: 10pt;
+  }
+}
+
+.card-pad {
+  padding: 2% !important;
 }

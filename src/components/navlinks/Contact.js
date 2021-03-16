@@ -16,7 +16,7 @@ class ContactForm extends React.Component {
                   <AiOutlineCaretRight/>
                 </p>
                 <h1 className="headp">
-                  Contact &nbsp;&nbsp;&nbsp;&nbsp;
+                  Contact! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </h1>
               </div>
           </Col>

@@ -20,7 +20,7 @@ class Profile extends React.Component {
                   <AiOutlineCaretRight/>
                 </p>
                 <h1 className="headp">
-                  Profile &nbsp;&nbsp;&nbsp;&nbsp;
+                  Profile! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </h1>
               </div>
               <div>
@@ -42,25 +42,25 @@ class Profile extends React.Component {
             <Row className="Icons-Pr">
               <Col xs={6} sm={6} md={2} lg={1} xl={1}>
                 <a className="Icons-link" href="https://github.com/mimnetto/mimi_portfolio" target="_blank" rel="noopener noreferrer">
-                  <FaGithub/>
+                  <FaGithub size={38}/>
                 </a>
               </Col>
               <Col  xs={6} sm={6} md={2} lg={1} xl={1}>
                 <a className="Icons-link" href="https://www.linkedin.com/in/michelle-netto/" target="_blank" rel="noopener noreferrer">
-                  <FaLinkedin/>
+                  <FaLinkedin size={38}/>
                 </a>
               </Col>
-              <Col xs={6} sm={6} md={2} lg={1} xl={1}>
+              <Col className="Pad-Icons" xs={6} sm={6} md={2} lg={1} xl={1}>
                 <a className="Icons-link" href="https://miminetto.myportfolio.com/" target="_blank" rel="noopener noreferrer">
-                  <FaAdobe/>
+                  <FaAdobe size={38}/>
                 </a>
               </Col>
-              <Col xs={6} sm={6} md={2} lg={1} xl={1}>
+              <Col className="Pad-Icons" xs={6} sm={6} md={2} lg={1} xl={1}>
                 <a className="Icons-link" href={Pdf} target="_blank" rel="noopener noreferrer">
-                  <FaRegFilePdf/>
+                  <FaRegFilePdf size={38}/>
                 </a>
                 <a className="Icons-Link-Text" href={Pdf} target="_blank" rel="noopener noreferrer">
-                  <p>Resume</p>
+                  <p className="Skill-Name">Resume</p>
                 </a>
               </Col>
               <Col className="col-6">
