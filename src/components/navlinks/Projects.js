@@ -35,7 +35,7 @@ class Projects extends React.Component {
                 closeIcon={<Icon> close</Icon>}
                 header={<CardTitle image = {p04} > Colleen ♥ Blake </CardTitle>}
                 revealIcon={<Icon> more_vert</Icon>}>
-                <p className="re-text Card-About">Final project for General Assembly SEIR 810 Moss. Full MERN stack CRUD application with Create React App front end.</p>
+                <p className="re-text Card-About">Still in progress! This was my final project for General Assembly SEIR 810 Moss. Full MERN stack CRUD application with Create React App front end.</p>
                 <a className="Git-link"  href="https://github.com/mimnetto/guestbook-client" target="_blank" rel="noreferrer"> <FaGithub/></a>
             </Card>
             </Col>
