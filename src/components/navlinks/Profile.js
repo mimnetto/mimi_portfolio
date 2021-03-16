@@ -40,22 +40,22 @@ class Profile extends React.Component {
         <div>
           <Container fluid="fluid">
             <Row className="Icons-Pr">
-              <Col className="col-1">
+              <Col xs={6} sm={6} md={2} lg={1} xl={1}>
                 <a className="Icons-link" href="https://github.com/mimnetto/mimi_portfolio" target="_blank" rel="noopener noreferrer">
                   <FaGithub/>
                 </a>
               </Col>
-              <Col className="col-1">
+              <Col  xs={6} sm={6} md={2} lg={1} xl={1}>
                 <a className="Icons-link" href="https://www.linkedin.com/in/michelle-netto/" target="_blank" rel="noopener noreferrer">
                   <FaLinkedin/>
                 </a>
               </Col>
-              <Col className="col-1">
+              <Col xs={6} sm={6} md={2} lg={1} xl={1}>
                 <a className="Icons-link" href="https://miminetto.myportfolio.com/" target="_blank" rel="noopener noreferrer">
                   <FaAdobe/>
                 </a>
               </Col>
-              <Col className="col-1">
+              <Col xs={6} sm={6} md={2} lg={1} xl={1}>
                 <a className="Icons-link" href={Pdf} target="_blank" rel="noopener noreferrer">
                   <FaRegFilePdf/>
                 </a>

@@ -31,7 +31,7 @@ html, body {
   }
 }
 
-@media only screen and (max-width: 100px) {
+@media only screen and (max-width: 480px) {
   .App {
     padding-top: 25%;
   }
@@ -51,14 +51,21 @@ html, body {
   position: absolute;
 }
 
-p.bub {
-  position: absolute;
-  font-size: 13pt;
+@media only screen and (max-width: 768px) {
+  p.bub {
+    position: absolute;
+    font-size: 13pt;
+  }
 }
-a.bub {
-  position: absolute;
-  font-size: 13pt;
+
+@media only screen and (max-width: 480px) {
+  p.bub {
+    position: absolute;
+    font-size: 7pt;
+  }
 }
+
+
 div.contact {
 margin-left: 1em;
 }
