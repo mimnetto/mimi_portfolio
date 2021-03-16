@@ -8,7 +8,8 @@ import Pdf from './Resume2021.pdf';
 
 class Profile extends React.Component {
   render() {
-    return (<div className="sectionStart">
+    return (
+    <div className="sectionStart">
       <Slide direction="right">
         <Container fluid="fluid">
           <Row className="drop">

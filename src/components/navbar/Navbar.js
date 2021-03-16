@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import styled from "styled-components";
 import { useSpring, animated, config } from "react-spring";
 import Brand from "./Brand";
@@ -31,10 +33,9 @@ const Navbar = (props) => {
         <FlexContainer>
           <Brand />
           <NavLinks  className=".d-md-none .d-lg-block" style={linkAnimation}>
-            <a href="/">Profile</a>
-            <a href="/">Skills</a>
-            <a href="/">Projects</a>
-            <a href="/">Resume</a>
+            <AnchorLink offset='150' href='#profile'>Profile</AnchorLink>
+            <AnchorLink offset='120' href='#skills'>Skills</AnchorLink>
+            <AnchorLink offset='120' href='#projects'>Projects</AnchorLink>
           </NavLinks>
           <BurgerWrapper>
             <BurgerMenu
