@@ -183,10 +183,6 @@ div.skillL {
   margin: 0 25px 0 2%;
 }
 
-h1.head {
-  display: inline;
-  border-bottom: 4px solid #212529;
-}
 
 h1.headp {
   display: inline;
@@ -227,6 +223,11 @@ div.col-xs-1, div.col-xs-10, div.col-xs-11, div.col-xs-12, div.col-xs-2, div.col
   padding-right: 0;
 }
 
+h1.head {
+  display: inline;
+  border-bottom: 4px solid #212529;
+}
+
 @media only screen and (max-width: 768px) {
   p.Skill-Name {
     font-size: 12pt;
@@ -244,6 +245,11 @@ div.col-xs-1, div.col-xs-10, div.col-xs-11, div.col-xs-12, div.col-xs-2, div.col
   div.Icons-Pr {
     margin-left: 1em;
     text-align: left;
+  }
+  h1.head {
+    display: inline;
+    border-bottom: 4px solid #212529;
+    font-size: 18pt;
   }
 }
 

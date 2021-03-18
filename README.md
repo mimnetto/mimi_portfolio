@@ -1,3 +1,7 @@
-# Mimi Netto's Portfolio
+# Mimi Netto's 2021 Portfolio
 
-New Portfolio for 2021
+### Links
+
+[miminetto.com](https://miminetto.com/)
+
+Made with reactJS
