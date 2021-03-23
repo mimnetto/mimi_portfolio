@@ -307,3 +307,27 @@ a.Project-Link-Text:hover {
 .card-pad {
   padding: 2% !important;
 }
+
+/* Form */
+
+Button.color {
+  background-color: var(--grey);
+  color: white;
+  float: right;
+}
+Button:focus.color {
+  background-color: var(--pink);
+  color: white;
+  float: right;
+}
+Button:hover.color {
+  background-color: var(--peach);
+  color: white;
+  float: right;
+}
+
+Div.form-bg{
+  background-color: #ffffffbf;
+  /* margin: 0 5%;
+  padding: 5% 0; */
+}

@@ -12,7 +12,8 @@ import p04 from './img/p04.jpg';
 
 class Projects extends React.Component {
   render() {
-    return (<div className="sectionStart">
+    return (
+    <div className="sectionStart">
       <Slide direction="right">
         <div>
           <p className="Icon">
@@ -22,7 +23,10 @@ class Projects extends React.Component {
             Projects! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </h1>
         </div>
-      <div>
+      </Slide>
+    <div>
+
+      <Slide direction="right">
         <Container fluid className="pro-cards">
           <Row>
             <Col xs={12} md={6} className="card-pad">
@@ -35,7 +39,7 @@ class Projects extends React.Component {
                 closeIcon={<Icon> close</Icon>}
                 header={<CardTitle image = {p04} > Colleen ♥ Blake </CardTitle>}
                 revealIcon={<Icon> more_vert</Icon>}>
-                <p className="re-text Card-About">Still in progress! This was my final project for General Assembly SEIR 810 Moss. Full MERN stack CRUD application with Create React App front end.</p>
+                <p className="re-text Card-About">Current project. Full MERN stack CRUD application with Create React App front end.</p>
                 <a className="Git-link"  href="https://github.com/mimnetto/guestbook-client" target="_blank" rel="noreferrer"> <FaGithub/></a>
             </Card>
             </Col>
@@ -83,8 +87,8 @@ class Projects extends React.Component {
             </Col>
           </Row>
         </Container>
+        </Slide>
       </div>
-    </Slide>
     </div>);
   }
 }
