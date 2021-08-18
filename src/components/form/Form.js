@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { TextInput, Textarea, Button, Form, Icon } from 'react-materialize';
+import { TextInput, Textarea, Button, Icon } from 'react-materialize';
 import {Container, Row, Col} from 'react-bootstrap';
 import {AiOutlineCaretRight} from "react-icons/ai";
 import {Slide} from "react-awesome-reveal";

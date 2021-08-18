@@ -6,7 +6,6 @@ import Skills from "./components/navlinks/Skills";
 import Projects from "./components/navlinks/Projects";
 import ContactForm from "./components/navlinks/Contact";
 import Footer from "./components/Footer";
-import Form from "./components/form/Form";
 import './App.css';
 import GlobalStyle from './styles/Global';
 

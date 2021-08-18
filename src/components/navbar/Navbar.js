@@ -95,7 +95,6 @@ const NavLinks = styled(animated.ul)`
   list-style-type: none;
   margin: auto 0;
   display: inherit;
-
   & a {
     color: #fecea8;
     text-transform: uppercase;
@@ -106,12 +105,10 @@ const NavLinks = styled(animated.ul)`
     transition: all 300ms linear 0s;
     text-decoration: none;
     cursor: pointer;
-
     &:hover {
       color: #cec79f;
       border-bottom: 1px solid #cec79f;
     }
-
     @media (max-width: 768px) {
       display: none;
     }
@@ -120,7 +117,6 @@ const NavLinks = styled(animated.ul)`
 
 const BurgerWrapper = styled.div`
   margin: auto 0;
-
   @media (min-width: 769px) {
     display: none;
   }

@@ -46,7 +46,7 @@ class Profile extends React.Component {
                 </a>
               </Col>
               <Col  className="Pad-Icons" xs={6} sm={6} md={2} lg={1} xl={1}>
-                <a className="Icons-link" href="https://www.linkedin.com/in/michelle-netto/" target="_blank" rel="noopener noreferrer">
+                <a className="Icons-link" href="https://www.linkedin.com/in/mimi-netto/" target="_blank" rel="noopener noreferrer">
                   <FaLinkedin size={38}/>
                 </a>
               </Col>
