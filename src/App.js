@@ -33,9 +33,6 @@ class App extends Component {
         <section id='skills'>
           <Skills/>
         </section>
-        <section id='projects'>
-          <Projects/>
-        </section>
         <section id='contact'>
           <ContactForm />
         </section>
